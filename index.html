@@ -82,18 +82,18 @@ img.ph{display:block;width:100%;height:100%;object-fit:cover}
 .btn-ghost:hover{background:var(--c2);color:#fff;border-style:solid;transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--c5)}
 .btn:focus-visible{outline:none;box-shadow:0 0 0 4px var(--c3),0 0 0 9px var(--c1)}
 header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:var(--maxw);margin:0 auto}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%;background:rgba(255,247,236,.82);backdrop-filter:blur(10px);border:4px solid var(--c5);border-radius:var(--r-pill);padding:10px 14px 10px 22px;box-shadow:5px 5px 0 var(--c1)}
-.logo{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1.1rem;text-transform:uppercase;letter-spacing:-.02em;display:flex;align-items:center;gap:.45rem;color:var(--ink);text-decoration:none}
-.logo .arc{font-size:1.3rem;line-height:0}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:10px 24px;max-width:var(--maxw);margin:0 auto}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%;background:rgba(255,249,242,.92);backdrop-filter:blur(10px);border:2px solid var(--c5);border-radius:var(--r-pill);padding:7px 10px 7px 18px;box-shadow:3px 3px 0 var(--c1)}
+.logo{font-family:'Unbounded',sans-serif;font-weight:900;font-size:1rem;text-transform:uppercase;letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem;color:var(--ink);text-decoration:none}
+.logo .arc{font-size:1.15rem;line-height:0}
 .logo b{background:linear-gradient(90deg,var(--c1),var(--c4),var(--c3),var(--c2),var(--c5));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.nav-links{display:flex;gap:6px;align-items:center}
-.nav-links a{font-weight:700;text-decoration:none;color:var(--ink);padding:9px 15px;border-radius:var(--r-pill);font-size:.95rem;transition:.2s}
-.nav-links a:hover{background:var(--c3);transform:translateY(-2px)}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{font-weight:700;text-decoration:none;color:var(--ink);padding:8px 14px;border-radius:var(--r-pill);font-size:.92rem;transition:.2s}
+.nav-links a:hover{background:var(--c3);transform:translateY(-1px)}
 .nav-cta{display:flex;align-items:center;gap:10px}
-.call-pill{display:inline-flex;align-items:center;gap:.45rem;font-family:'Unbounded';font-weight:800;font-size:.95rem;text-decoration:none;color:#fff;background:var(--c1);border:3px solid var(--c3);padding:11px 20px;border-radius:var(--r-pill);box-shadow:4px 4px 0 var(--c5);transition:.2s}
-.call-pill:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--c5)}
-.burger{display:none;background:var(--c5);border:3px solid var(--c3);border-radius:14px;width:48px;height:48px;cursor:pointer;color:#fff;font-size:1.4rem}
+.call-pill{display:inline-flex;align-items:center;gap:.4rem;font-family:'Unbounded';font-weight:800;font-size:.88rem;text-decoration:none;color:#fff;background:var(--c1);border:2px solid var(--c3);padding:9px 17px;border-radius:var(--r-pill);box-shadow:3px 3px 0 var(--c5);transition:.2s}
+.call-pill:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--c5)}
+.burger{display:none;background:var(--c5);border:2px solid var(--c3);border-radius:12px;width:44px;height:44px;cursor:pointer;color:#fff;font-size:1.3rem}
 .mobile-menu{display:none}
 .hero{padding:160px 0 110px;overflow:hidden}
 .hero .mesh{background:radial-gradient(ellipse at 15% 20%,rgba(31,111,235,.22) 0%,transparent 42%),radial-gradient(ellipse at 50% 18%,rgba(255,196,0,.26) 0%,transparent 42%),radial-gradient(ellipse at 85% 25%,rgba(0,194,178,.22) 0%,transparent 42%),radial-gradient(ellipse at 50% 92%,rgba(123,47,255,.2) 0%,transparent 50%)}
@@ -109,16 +109,22 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .hero p.sub{max-width:520px;margin:26px 0 32px;font-size:1.15rem;font-weight:500;color:var(--ink-soft)}
 .hero-cta{display:flex;gap:16px;flex-wrap:wrap}
 .trust-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
-.trust-chip{background:var(--bg-2);border:3px solid var(--ink);border-radius:var(--r-pill);padding:9px 16px;font-weight:700;font-size:.85rem;display:inline-flex;align-items:center;gap:.4rem;box-shadow:3px 3px 0 var(--c3)}
+.trust-chip{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-pill);padding:9px 16px;font-weight:700;font-size:.85rem;display:inline-flex;align-items:center;gap:.4rem;box-shadow:3px 3px 0 var(--c3)}
 .trust-chip:nth-child(2){box-shadow:3px 3px 0 var(--c2)}
 .trust-chip:nth-child(3){box-shadow:3px 3px 0 var(--c1)}
 .trust-chip:nth-child(4){box-shadow:3px 3px 0 var(--c5)}
-.collage{position:relative;height:520px}
-.collage .imgwrap{position:absolute;border:5px solid var(--ink);border-radius:26px}
-.collage .h-a{width:58%;height:62%;top:0;right:4%;box-shadow:10px 10px 0 var(--c1);z-index:3;animation:float 7s ease-in-out infinite}
-.collage .h-b{width:50%;height:50%;bottom:2%;left:0;box-shadow:10px 10px 0 var(--c2);z-index:2;animation:float-rev 6s ease-in-out infinite}
-.collage .h-c{width:40%;height:38%;bottom:8%;right:0;box-shadow:8px 8px 0 var(--c3);z-index:4;animation:bounce 3s ease-in-out infinite}
-.collage .badge{position:absolute;top:-8%;left:6%;z-index:5;background:var(--c3);color:var(--ink);font-family:'Unbounded';font-weight:900;font-size:.92rem;text-transform:uppercase;border:4px solid var(--ink);border-radius:50%;width:106px;height:106px;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.05;padding:8px;transform:rotate(-12deg);box-shadow:5px 5px 0 var(--c5);animation:wiggle 2.4s ease-in-out infinite}
+.hero-carousel{position:relative}
+.carousel{position:relative;height:520px;border:2px solid var(--ink);border-radius:26px;overflow:hidden;box-shadow:8px 8px 0 var(--c1);background:linear-gradient(135deg,var(--c5),var(--c1))}
+.cslide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease;z-index:1}
+.cslide.active{opacity:1;z-index:2}
+.cslide::after{content:attr(data-emoji);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:3.5rem;filter:drop-shadow(2px 3px 0 rgba(0,0,0,.18));z-index:0;opacity:.9}
+.cslide img.ph{position:relative;z-index:1;width:100%;height:100%;object-fit:cover}
+.cslide img.ph[data-failed]{display:none}
+.cdots{position:absolute;bottom:16px;left:0;right:0;z-index:5;display:flex;gap:9px;justify-content:center}
+.cdot{width:11px;height:11px;border-radius:50%;border:2px solid #fff;background:transparent;cursor:pointer;padding:0;transition:.2s;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.cdot.active{background:#fff;transform:scale(1.15)}
+.cdot:hover{background:rgba(255,255,255,.7)}
+.hero-carousel .badge{position:absolute;top:-22px;left:-18px;z-index:6;background:var(--c3);color:var(--ink);font-family:'Unbounded';font-weight:900;font-size:.92rem;text-transform:uppercase;border:2px solid var(--ink);border-radius:50%;width:100px;height:100px;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.05;padding:8px;transform:rotate(-8deg);box-shadow:4px 4px 0 var(--c5)}
 .shape{position:absolute;z-index:1;pointer-events:none;font-size:2.4rem;will-change:transform}
 .s1{top:6%;left:2%;animation:float 6s ease-in-out infinite}
 .s2{top:14%;right:1%;animation:float-rev 5s ease-in-out infinite}
@@ -133,7 +139,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .sec-head p{max-width:620px;margin:18px auto 0;font-weight:500;color:var(--ink-soft)}
 .serv .mesh{background:radial-gradient(ellipse at 80% 10%,rgba(0,194,178,.22),transparent 50%),radial-gradient(ellipse at 10% 90%,rgba(255,196,0,.22),transparent 50%)}
 .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;position:relative;z-index:2}
-.pcard{background:var(--bg-2);border:4px solid var(--ink);border-radius:var(--r-card);overflow:hidden;transition:transform .3s cubic-bezier(.68,-.55,.265,1.55),box-shadow .3s;display:flex;flex-direction:column}
+.pcard{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-card);overflow:hidden;transition:transform .3s cubic-bezier(.68,-.55,.265,1.55),box-shadow .3s;display:flex;flex-direction:column}
 .pcard .imgwrap{height:210px;border-bottom:4px solid var(--ink)}
 .pcard .tag{position:absolute;top:12px;left:12px;z-index:3;font-family:'Unbounded';font-weight:800;font-size:.7rem;text-transform:uppercase;color:#fff;padding:6px 12px;border-radius:var(--r-pill);border:2px solid #fff}
 .pcard .body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1}
@@ -141,7 +147,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .pcard p{color:var(--ink-soft);font-weight:500;font-size:.95rem;flex:1}
 .prow{display:flex;align-items:center;justify-content:space-between;margin-top:16px;gap:10px}
 .price{font-family:'Unbounded';font-weight:800;font-size:.95rem;padding:6px 14px;border-radius:var(--r-pill);color:#fff;white-space:nowrap}
-.pbook{font-family:'Unbounded';font-weight:700;font-size:.78rem;text-transform:uppercase;text-decoration:none;color:var(--ink);border:3px solid var(--ink);border-radius:var(--r-pill);padding:7px 14px;transition:.2s}
+.pbook{font-family:'Unbounded';font-weight:700;font-size:.78rem;text-transform:uppercase;text-decoration:none;color:var(--ink);border:2px solid var(--ink);border-radius:var(--r-pill);padding:7px 14px;transition:.2s}
 .pbook:hover{background:var(--ink);color:#fff}
 .serv .pgrid .pcard:nth-child(odd){transform:translateY(14px)}
 .pcard:nth-child(5n+1){box-shadow:8px 8px 0 var(--c1)} .pcard:nth-child(5n+1) .tag,.pcard:nth-child(5n+1) .price{background:var(--c1)}
@@ -153,7 +159,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .serv-cta{text-align:center;margin-top:50px;position:relative;z-index:2}
 .cats .mesh{background:radial-gradient(ellipse at 20% 30%,rgba(31,111,235,.14),transparent 50%)}
 .cgrid2{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;position:relative;z-index:2}
-.cat{position:relative;border:4px solid var(--ink);border-radius:24px;overflow:hidden;height:230px;text-decoration:none;display:block}
+.cat{position:relative;border:2px solid var(--ink);border-radius:24px;overflow:hidden;height:230px;text-decoration:none;display:block}
 .cat .imgwrap{height:100%}
 .cat .lab{position:absolute;inset:0;display:flex;align-items:flex-end;padding:16px;background:linear-gradient(to top,rgba(26,19,48,.85),transparent 62%);z-index:2}
 .cat .lab b{font-family:'Unbounded';font-weight:800;color:#fff;font-size:1rem;text-transform:uppercase;line-height:1.05}
@@ -168,8 +174,8 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .why .sec-head h2,.why .sec-head .sec-tag,.why .sec-head p{color:#fff}
 .why .sec-tag{background:rgba(255,255,255,.16)}
 .wgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative;z-index:2}
-.wcard{background:var(--bg-2);border:4px solid var(--ink);border-radius:var(--r-card);padding:30px 26px}
-.wcard .wi{width:60px;height:60px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin-bottom:16px;border:4px solid var(--ink)}
+.wcard{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-card);padding:30px 26px}
+.wcard .wi{width:60px;height:60px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin-bottom:16px;border:2px solid var(--ink)}
 .wcard h3{font-size:1.15rem;margin-bottom:8px}
 .wcard p{color:var(--ink-soft);font-weight:500;font-size:.96rem}
 .wcard:nth-child(1){box-shadow:8px 8px 0 var(--c1)} .wcard:nth-child(1) .wi{background:rgba(31,111,235,.16);border-color:var(--c1)}
@@ -181,8 +187,8 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .wcard:hover{transform:translateY(-6px) rotate(-1deg)}
 .how .mesh{background:radial-gradient(ellipse at 90% 20%,rgba(31,111,235,.16),transparent 50%)}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative;z-index:2}
-.step{background:var(--bg-2);border:4px solid var(--ink);border-radius:var(--r-card);padding:30px 24px;position:relative}
-.step .n{position:absolute;top:-22px;left:24px;width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Unbounded';font-weight:900;font-size:1.3rem;color:#fff;border:4px solid var(--ink)}
+.step{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-card);padding:30px 24px;position:relative}
+.step .n{position:absolute;top:-22px;left:24px;width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Unbounded';font-weight:900;font-size:1.3rem;color:#fff;border:2px solid var(--ink)}
 .step:nth-child(1){box-shadow:7px 7px 0 var(--c1)} .step:nth-child(1) .n{background:var(--c1)}
 .step:nth-child(2){box-shadow:7px 7px 0 var(--c2);transform:translateY(16px)} .step:nth-child(2) .n{background:var(--c2)}
 .step:nth-child(3){box-shadow:7px 7px 0 var(--c4)} .step:nth-child(3) .n{background:var(--c4)}
@@ -194,7 +200,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .gal .sec-head h2{color:var(--ink);text-shadow:3px 3px 0 #fff}
 .gal .sec-tag{background:var(--ink);color:#fff}
 .ggrid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:130px;gap:16px;position:relative;z-index:2}
-.gtile{border:4px solid var(--ink);border-radius:18px;overflow:hidden}
+.gtile{border:2px solid var(--ink);border-radius:18px;overflow:hidden}
 .gtile .imgwrap{height:100%}
 .gtile:nth-child(1){grid-column:span 2;grid-row:span 2;box-shadow:7px 7px 0 var(--c1)}
 .gtile:nth-child(2){grid-column:span 2;box-shadow:6px 6px 0 var(--c5)}
@@ -208,7 +214,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .rev .sec-head h2{color:var(--ink);text-shadow:3px 3px 0 #fff}
 .rev .sec-tag{background:var(--ink);color:#fff}
 .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative;z-index:2}
-.review{background:var(--bg-2);border:4px solid var(--ink);border-radius:var(--r-card);padding:30px}
+.review{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-card);padding:30px}
 .review:nth-child(1){box-shadow:8px 8px 0 var(--c1);transform:rotate(-1deg)}
 .review:nth-child(2){box-shadow:8px 8px 0 var(--c5);transform:rotate(1deg)}
 .review:nth-child(3){box-shadow:8px 8px 0 var(--c2);transform:rotate(-1deg)}
@@ -221,7 +227,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .gbtn{display:inline-flex;align-items:center;gap:.5rem;margin:40px auto 0;justify-content:center}
 .areas .mesh{background:radial-gradient(ellipse at 20% 30%,rgba(0,194,178,.16),transparent 50%)}
 .area-tags{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:940px;margin:0 auto;position:relative;z-index:2}
-.area-tags span{background:var(--bg-2);border:3px solid var(--ink);border-radius:var(--r-pill);padding:9px 18px;font-weight:700;font-size:.92rem;transition:.2s;cursor:default}
+.area-tags span{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-pill);padding:9px 18px;font-weight:700;font-size:.92rem;transition:.2s;cursor:default}
 .area-tags span:nth-child(5n+1){box-shadow:3px 3px 0 var(--c1)}
 .area-tags span:nth-child(5n+2){box-shadow:3px 3px 0 var(--c2)}
 .area-tags span:nth-child(5n+3){box-shadow:3px 3px 0 var(--c3)}
@@ -230,7 +236,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .area-tags span:hover{transform:translateY(-3px) rotate(-2deg)}
 .faq .mesh{background:repeating-linear-gradient(45deg,transparent,transparent 16px,rgba(123,47,255,.05) 16px,rgba(123,47,255,.05) 32px)}
 .faq-list{max-width:780px;margin:0 auto;position:relative;z-index:2;display:flex;flex-direction:column;gap:16px}
-.faq-item{background:var(--bg-2);border:4px solid var(--ink);border-radius:22px;overflow:hidden}
+.faq-item{background:var(--bg-2);border:2px solid var(--ink);border-radius:22px;overflow:hidden}
 .faq-item:nth-child(4n+1){box-shadow:6px 6px 0 var(--c1)}
 .faq-item:nth-child(4n+2){box-shadow:6px 6px 0 var(--c2)}
 .faq-item:nth-child(4n+3){box-shadow:6px 6px 0 var(--c4)}
@@ -246,9 +252,9 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .contact .sec-head h2,.contact .sec-head .sec-tag,.contact .sec-head p{color:#fff}
 .contact .sec-tag{background:rgba(255,255,255,.18)}
 .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start;position:relative;z-index:2;max-width:1000px;margin:0 auto}
-.cbox{background:var(--bg-2);border:4px solid var(--c3);border-radius:var(--r-card);padding:34px;box-shadow:10px 10px 0 var(--c5)}
+.cbox{background:var(--bg-2);border:2px solid var(--c3);border-radius:var(--r-card);padding:34px;box-shadow:8px 8px 0 var(--c5)}
 .cbox h3{font-size:1.4rem;margin-bottom:20px;color:var(--ink)}
-.cinfo a{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:700;padding:14px 16px;border:3px solid var(--ink);border-radius:16px;margin-bottom:14px;transition:.2s}
+.cinfo a{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:700;padding:14px 16px;border:2px solid var(--ink);border-radius:16px;margin-bottom:14px;transition:.2s}
 .cinfo a:nth-child(1){box-shadow:4px 4px 0 var(--c1)}
 .cinfo a:nth-child(2){box-shadow:4px 4px 0 var(--c2)}
 .cinfo a:nth-child(3){box-shadow:4px 4px 0 var(--c4)}
@@ -258,7 +264,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
 .cinfo a:nth-child(2) .em{background:rgba(0,194,178,.16)}
 .cinfo a:nth-child(3) .em{background:rgba(255,107,44,.16)}
 form label{display:block;font-family:'Unbounded';font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px 4px;color:var(--ink)}
-form input,form textarea{width:100%;font-family:'DM Sans';font-weight:600;font-size:1rem;color:var(--ink);background:var(--bg);border:4px solid var(--c5);padding:14px 18px;margin-bottom:18px;transition:.25s}
+form input,form textarea{width:100%;font-family:'DM Sans';font-weight:600;font-size:1rem;color:var(--ink);background:var(--bg);border:2px solid var(--c5);padding:14px 18px;margin-bottom:18px;transition:.25s}
 form input{border-radius:var(--r-pill)}
 form textarea{border-radius:18px;min-height:110px;resize:vertical}
 form input:focus,form textarea:focus{outline:none;border-color:var(--c2);box-shadow:0 0 0 4px rgba(0,194,178,.25)}
@@ -304,6 +310,41 @@ footer a.fl:hover{color:var(--c2);padding-left:6px}
 .chip:hover{background:var(--c5);color:#fff}
 .chat-foot{padding:12px 16px;border-top:3px dashed var(--c3);background:var(--bg-2)}
 .chat-wa{display:flex;align-items:center;justify-content:center;gap:.5rem;width:100%;background:#25D366;color:#fff;font-family:'Unbounded';font-weight:700;font-size:.85rem;text-transform:uppercase;text-decoration:none;padding:12px;border-radius:14px}
+/* ===== UNIFIED CATALOGUE ===== */
+.catalogue{background:var(--bg-2)}
+.catalogue .mesh{background:radial-gradient(ellipse at 80% 5%,rgba(0,194,178,.08),transparent 45%)}
+.cat-jump{position:sticky;top:70px;z-index:30;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:12px;margin:0 auto 56px;max-width:920px;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:2px solid var(--ink);border-radius:var(--r-pill);box-shadow:3px 3px 0 var(--c1)}
+.cat-jump a{font-family:'Unbounded';font-weight:800;font-size:.8rem;text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--ink);padding:8px 15px;border-radius:var(--r-pill);border:2px solid var(--ink);transition:.18s;white-space:nowrap}
+.cat-jump a:hover,.cat-jump a:focus-visible{background:var(--c1);color:#fff;outline:none}
+.cat-group{margin-bottom:56px;scroll-margin-top:150px}
+.cat-group:last-child{margin-bottom:0}
+.cat-group-head{display:flex;align-items:center;gap:16px;margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid var(--ink)}
+.cat-group-head .ci{width:54px;height:54px;flex:0 0 auto;border-radius:14px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:1.6rem}
+.cat-group:nth-child(6n+1) .cat-group-head .ci{background:rgba(31,111,235,.14)}
+.cat-group:nth-child(6n+2) .cat-group-head .ci{background:rgba(0,194,178,.14)}
+.cat-group:nth-child(6n+3) .cat-group-head .ci{background:rgba(255,107,44,.14)}
+.cat-group:nth-child(6n+4) .cat-group-head .ci{background:rgba(123,47,255,.14)}
+.cat-group:nth-child(6n+5) .cat-group-head .ci{background:rgba(255,196,0,.18)}
+.cat-group-head h3{font-size:clamp(1.4rem,4vw,2rem);line-height:1.04}
+.cat-group-head p{color:var(--ink-soft);font-weight:500;font-size:.95rem;margin-top:4px}
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+/* uniform card: equal height, price always visible, calm and structured */
+.icard{background:var(--bg-2);border:2px solid var(--ink);border-radius:var(--r-card);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 14px rgba(20,32,51,.08);transition:transform .2s ease,box-shadow .2s ease}
+.icard .imgwrap{height:200px;border-bottom:2px solid var(--ink)}
+.icard .tag{position:absolute;top:12px;left:12px;z-index:3;font-family:'Unbounded';font-weight:800;font-size:.68rem;text-transform:uppercase;color:#fff;padding:6px 12px;border-radius:var(--r-pill);border:2px solid #fff}
+.icard .body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+.icard h4{font-family:'Unbounded';font-weight:800;font-size:1.05rem;text-transform:uppercase;line-height:1.05;margin-bottom:8px;min-height:2.3em;display:flex;align-items:flex-start}
+.icard p{color:var(--ink-soft);font-weight:500;font-size:.92rem;flex:1;margin-bottom:16px}
+.icard .prow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto}
+.icard .price{font-family:'Unbounded';font-weight:800;font-size:.92rem;padding:7px 15px;border-radius:var(--r-pill);color:#fff;white-space:nowrap;background:var(--c1)}
+.icard .pbook{font-family:'Unbounded';font-weight:700;font-size:.76rem;text-transform:uppercase;text-decoration:none;color:var(--ink);border:2px solid var(--ink);border-radius:var(--r-pill);padding:8px 16px;transition:.18s}
+.icard .pbook:hover{background:var(--ink);color:#fff}
+.cat-grid .icard:nth-child(3n+1) .tag,.cat-grid .icard:nth-child(3n+1) .price{background:var(--c1)}
+.cat-grid .icard:nth-child(3n+2) .tag,.cat-grid .icard:nth-child(3n+2) .price{background:var(--c2)}
+.cat-grid .icard:nth-child(3n+3) .tag,.cat-grid .icard:nth-child(3n+3) .price{background:var(--c4)}
+.icard:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(20,32,51,.14)}
+@media(max-width:980px){.cat-grid{grid-template-columns:repeat(2,1fr)}.cat-jump{top:64px}}
+@media(max-width:768px){.cat-grid{grid-template-columns:1fr;gap:20px}.cat-jump{position:static;top:auto;margin-bottom:36px}.icard:hover{transform:translateY(-3px)}.icard h4{min-height:0}.cat-group{margin-bottom:44px}}
 @keyframes gshift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 @keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-18px) rotate(2deg)}}
 @keyframes float-rev{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(18px) rotate(-2deg)}}
@@ -312,11 +353,12 @@ footer a.fl:hover{color:var(--c2);padding-left:6px}
 @keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
 @keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes pulsering{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.8);opacity:0}}
-[data-reveal]{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s cubic-bezier(.34,1.56,.64,1)}
+[data-reveal]{opacity:1;transform:none}
 [data-reveal].in{opacity:1;transform:none}
 @media(max-width:980px){
   .hero-grid{grid-template-columns:1fr;gap:36px}
-  .collage{height:440px;max-width:480px}
+  .carousel{height:440px;max-width:560px}
+  .hero-carousel{max-width:560px}
   .pgrid,.wgrid,.steps,.rgrid{grid-template-columns:repeat(2,1fr)}
   .cgrid2{grid-template-columns:repeat(3,1fr)}
   .ggrid{grid-template-columns:repeat(4,1fr)}
@@ -324,9 +366,9 @@ footer a.fl:hover{color:var(--c2);padding-left:6px}
   .cgrid{grid-template-columns:1fr}
 }
 @media(max-width:768px){
-  .nav{padding:12px 14px}
-  .nav-inner{padding:8px 10px 8px 16px;box-shadow:4px 4px 0 var(--c1)}
-  .logo{font-size:.92rem}
+  .nav{padding:8px 14px}
+  .nav-inner{padding:6px 8px 6px 14px;box-shadow:3px 3px 0 var(--c1)}
+  .logo{font-size:.88rem}
   .nav-links,.nav-cta .call-pill{display:none}
   .burger{display:block}
   .mobile-menu{display:block;position:fixed;inset:0;z-index:55;background:var(--bg);padding:96px 24px 40px;transform:translateX(100%);transition:.3s;overflow-y:auto}
@@ -348,8 +390,9 @@ footer a.fl:hover{color:var(--c2);padding-left:6px}
   .step,.cat{box-shadow:5px 5px 0 var(--c2)!important}
   .cbox{box-shadow:6px 6px 0 var(--c5)}
   .hero-grid{gap:30px}
-  .collage{height:380px;max-width:420px;margin:0 auto;width:100%}
-  .collage .badge{width:84px;height:84px;font-size:.78rem;top:-6%}
+  .hero-carousel{max-width:500px;margin:0 auto;width:100%}
+  .carousel{height:360px;width:100%}
+  .hero-carousel .badge{width:80px;height:80px;font-size:.74rem;top:-16px;left:-10px}
   .arc-deco{display:none}
   .bg-word{font-size:clamp(6rem,30vw,12rem)}
   .hero h1{font-size:clamp(2.4rem,9vw,3.4rem)}
@@ -372,17 +415,17 @@ footer a.fl:hover{color:var(--c2);padding-left:6px}
   .ggrid{grid-template-columns:1fr;grid-auto-rows:180px}
   .gtile:nth-child(1),.gtile:nth-child(5){grid-row:span 1}
   .sec-head h2{font-size:clamp(1.9rem,8vw,2.4rem)}
-  .collage{height:320px}
+  .carousel{height:300px}
   .area-tags span{font-size:.85rem;padding:8px 14px}
   .pcard .imgwrap{height:190px}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.15s!important}}
 
 /* ---- calmer theme overrides ---- */
-.rainbow-bar{height:5px;background:linear-gradient(90deg,var(--c1),var(--c2)) !important;}
+.rainbow-bar{height:3px;background:linear-gradient(90deg,var(--c1),var(--c2)) !important;}
 h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
 .bg-word{opacity:.04 !important;}
-.pcard,.cat,.wcard,.gtile .imgwrap,.review,.step,.collage .imgwrap{transform:none !important;}
+.pcard,.cat,.wcard,.gtile .imgwrap,.review,.step{transform:none !important;}
 .pcard .imgwrap,.cat .imgwrap{border-style:solid !important;}
 .badge{transform:rotate(-6deg) !important;}
 .shape{opacity:.5 !important;}
@@ -396,8 +439,7 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
     <div class="nav-inner">
       <a href="#top" class="logo"><span class="arc">&#127942;</span>CHAMPION<b>CASTLES &amp; MARQUEES</b></a>
       <nav class="nav-links">
-        <a href="#products">Popular</a>
-        <a href="#categories">What We Do</a>
+        <a href="#catalogue">Catalogue</a>
         <a href="#why">Why Us</a>
         <a href="#reviews">Reviews</a>
         <a href="#faq">FAQs</a>
@@ -411,8 +453,7 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
 </header>
 
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#products">Popular</a>
-  <a href="#categories">What We Do</a>
+  <a href="#catalogue">Catalogue</a>
   <a href="#why">Why Us</a>
   <a href="#reviews">Reviews</a>
   <a href="#faq">FAQs</a>
@@ -437,7 +478,7 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
       <p class="sub" data-reveal>A family-run business in Clonlara, Co Clare. Bouncy castles, obstacle courses, disco inflatables, marquees, fun food and giant games, whatever your party or event, look no further than Champion Castles.</p>
       <div class="hero-cta" data-reveal>
         <a href="#contact" class="btn btn-primary">Book Now</a>
-        <a href="#categories" class="btn btn-ghost">See What We Do</a>
+        <a href="#catalogue" class="btn btn-ghost">See What We Do</a>
       </div>
       <div class="trust-row" data-reveal>
         <span class="trust-chip">&#9989; BIHA &amp; TIPE Members</span>
@@ -446,11 +487,18 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
         <span class="trust-chip">&#128176; Quality At Affordable Rates</span>
       </div>
     </div>
-    <div class="collage" data-reveal>
+    <div class="hero-carousel" data-reveal>
       <div class="badge">Family<br>Run</div>
-      <div data-emoji="&#127880;" class="imgwrap h-a"><img class="ph" loading="lazy" alt="Bounce and slide castle" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/cb0cce89cbcb2538383da2702a0362a2" onerror="this.setAttribute('data-failed','1')"></div>
-      <div data-emoji="&#127942;" class="imgwrap f2 h-b"><img class="ph" loading="lazy" alt="Adrenaline obstacle course" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/8933eecc72e7a7e1fc3f45745f12f974" onerror="this.setAttribute('data-failed','1')"></div>
-      <div data-emoji="&#9978;" class="imgwrap f3 h-c"><img class="ph" loading="lazy" alt="Marquee for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/c08c9f75c63eea89f568e4023e66f550" onerror="this.setAttribute('data-failed','1')"></div>
+      <div class="carousel" id="heroCarousel">
+        <div class="cslide active" data-emoji="&#127880;"><img class="ph" loading="eager" alt="Bounce and slide castle" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1200/cb0cce89cbcb2538383da2702a0362a2" onerror="this.setAttribute('data-failed','1')"></div>
+        <div class="cslide" data-emoji="&#127942;"><img class="ph" loading="lazy" alt="Adrenaline obstacle course" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1200/8933eecc72e7a7e1fc3f45745f12f974" onerror="this.setAttribute('data-failed','1')"></div>
+        <div class="cslide" data-emoji="&#9978;"><img class="ph" loading="lazy" alt="Marquee for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1200/c08c9f75c63eea89f568e4023e66f550" onerror="this.setAttribute('data-failed','1')"></div>
+        <div class="cdots" id="heroDots" aria-label="Carousel navigation">
+          <button class="cdot active" data-i="0" aria-label="Slide 1"></button>
+          <button class="cdot" data-i="1" aria-label="Slide 2"></button>
+          <button class="cdot" data-i="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -463,83 +511,142 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
   </div>
 </div>
 
-<!-- ===== PRODUCTS ===== -->
-<section class="serv" id="products">
+<!-- ===== UNIFIED CATALOGUE ===== -->
+<section class="catalogue" id="catalogue">
   <div class="mesh"></div>
   <div class="wrap layer">
     <div class="sec-head" data-reveal>
-      <span class="sec-tag" style="background:var(--c1);color:#fff">Featured Products</span>
-      <h2>Crowd <span style="color:var(--c1)">Favourites</span></h2>
-      <p>A taste of our range, from disco-ready castles to giant marquees and fun food. Ask Colm about party packages.</p>
+      <span class="sec-tag" style="background:var(--c1);color:#fff">Our Full Range</span>
+      <h2>The <span style="color:var(--c1)">Catalogue</span></h2>
+      <p>Everything we hire, grouped by type and priced up front. Jump to a category, then call Colm to book or build a package.</p>
     </div>
-    <!-- Real photos from the live site's Cloudinary CDN -->
-    <div class="pgrid">
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#127880;" class="imgwrap"><span class="tag">Most Popular</span><img class="ph" loading="lazy" alt="Bounce and slide castle" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/cb0cce89cbcb2538383da2702a0362a2" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>Bounce &amp; Slide Castle</h3><p>Striking purple 3D artwork, a big bouncing area and an 8ft platform slide. Disco-ready for an extra &#8364;30.</p>
-          <div class="prow"><span class="price">&#8364;160</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#127942;" class="imgwrap f2"><span class="tag">45ft</span><img class="ph" loading="lazy" alt="Adrenaline obstacle course" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/8933eecc72e7a7e1fc3f45745f12f974" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>Adrenaline Obstacle Course</h3><p>A huge 45ft course with bish-bash obstacles and an 8ft slide. Suits ages 5/6 right up to teenagers.</p>
-          <div class="prow"><span class="price">&#8364;220</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#9978;" class="imgwrap f3"><span class="tag">Seats 25-30</span><img class="ph" loading="lazy" alt="4M x 8M marquee" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/c08c9f75c63eea89f568e4023e66f550" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>4M x 8M Marquee</h3><p>The largest in our range, seating 25-30 or 45 standing. Add flooring, heating, furniture and lighting.</p>
-          <div class="prow"><span class="price">Ask Us</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#127922;" class="imgwrap f4"><span class="tag">Games</span><img class="ph" loading="lazy" alt="Football and hurling darts" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/91bce9540e51dea73947e1bb870eb9f9" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>Football &amp; Hurling Darts</h3><p>Giant inflatable dartboards for football and hurling. A brilliant crowd-pleaser for all ages.</p>
-          <div class="prow"><span class="price">&#8364;160</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#127851;" class="imgwrap f5"><span class="tag">Fun Food</span><img class="ph" loading="lazy" alt="Fun food machines" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/c056e380347705b096bc28575c277518" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>Fun Food Machines</h3><p>Candy floss and popcorn machines, supplied with everything you need. Candy floss &amp; popcorn from &#8364;120.</p>
-          <div class="prow"><span class="price">From &#8364;120</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-      <div class="pcard" data-reveal>
-        <div data-emoji="&#127918;" class="imgwrap"><span class="tag">Giant</span><img class="ph" loading="lazy" alt="Giant garden games package" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/b2eea5eafe35d67dcdc33602aa374922" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="body"><h3>Giant Garden Games</h3><p>Giant Connect 4, buzzer games and more. A garden games package starts from &#8364;150, fun for all ages.</p>
-          <div class="prow"><span class="price">From &#8364;150</span><a class="pbook" href="#contact">Book</a></div></div>
-      </div>
-    </div>
-    <div class="serv-cta">
-      <a href="#categories" class="btn btn-primary">See Everything We Do</a>
-    </div>
-  </div>
-</section>
 
-<!-- ===== CATEGORIES ===== -->
-<section class="cats" id="categories">
-  <div class="mesh"></div>
-  <div class="wrap layer">
-    <div class="sec-head" data-reveal>
-      <span class="sec-tag" style="background:var(--c2);color:#fff">What We Do</span>
-      <h2>One Team, <span style="color:var(--c2)">Every Event</span></h2>
+    <!-- jump bar -->
+    <nav class="cat-jump" data-reveal aria-label="Catalogue categories">
+      <a href="#cat-castles">&#127984; Bouncy Castles</a>
+      <a href="#cat-obstacle">&#127942; Obstacle Courses</a>
+      <a href="#cat-marquees">&#9978; Marquees</a>
+      <a href="#cat-food">&#127851; Fun Food</a>
+      <a href="#cat-games">&#127918; Giant Games</a>
+    </nav>
+
+    <!-- BOUNCY CASTLES -->
+    <div class="cat-group" id="cat-castles" data-reveal>
+      <div class="cat-group-head">
+        <span class="ci">&#127984;</span>
+        <div><h3>Bouncy Castles</h3><p>Disco-ready castles with slides, made by leading manufacturers.</p></div>
+      </div>
+      <div class="cat-grid">
+        <div class="icard">
+          <div data-emoji="&#127880;" class="imgwrap"><span class="tag">Most Popular</span><img class="ph" loading="lazy" alt="Bounce and slide castle" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/cb0cce89cbcb2538383da2702a0362a2" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Bounce &amp; Slide Castle</h4><p>Striking purple 3D artwork, a big bouncing area and an 8ft platform slide. Disco-ready for an extra &#8364;30.</p>
+            <div class="prow"><span class="price">&#8364;160</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#127880;" class="imgwrap f4"><span class="tag">Castle</span><img class="ph" loading="lazy" alt="Bouncy castle for hire Clare" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/4f6148506ba761ce58829ccb1574e1d9" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Classic Bouncy Castle</h4><p>A bright, roomy castle that suits birthdays, communions and garden parties for all ages.</p>
+            <div class="prow"><span class="price">From &#8364;130</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#127984;" class="imgwrap f5"><span class="tag">Disco</span><img class="ph" loading="lazy" alt="Disco inflatable castle" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/1df44fa0e31badbab3907c3cda5e8119" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Disco Inflatable</h4><p>Add lights and sound to any castle for a proper party vibe. Ask Colm about the disco upgrade.</p>
+            <div class="prow"><span class="price">+&#8364;30</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+      </div>
     </div>
-    <div class="cgrid2">
-      <a class="cat" href="#contact" data-reveal>
-        <div data-emoji="&#127984;" class="imgwrap"><img class="ph" loading="lazy" alt="Bouncy castles for hire Clare" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/1df44fa0e31badbab3907c3cda5e8119" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="lab"><b>Bouncy Castles</b></div>
-      </a>
-      <a class="cat" href="#contact" data-reveal>
-        <div data-emoji="&#127942;" class="imgwrap f2"><img class="ph" loading="lazy" alt="Obstacle courses for hire Limerick" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/2dad30734c482af64d3fb1dbb4f527c9" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="lab"><b>Obstacle Courses</b></div>
-      </a>
-      <a class="cat" href="#contact" data-reveal>
-        <div data-emoji="&#9978;" class="imgwrap f3"><img class="ph" loading="lazy" alt="Marquees for hire Clare" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/9df7eaeecca1de0848a66ff600a46d51" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="lab"><b>Marquees</b></div>
-      </a>
-      <a class="cat" href="#contact" data-reveal>
-        <div data-emoji="&#127851;" class="imgwrap f4"><img class="ph" loading="lazy" alt="Fun food for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/310316537c5df4b0c201f9b0ab1bf09f" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="lab"><b>Fun Food</b></div>
-      </a>
-      <a class="cat" href="#contact" data-reveal>
-        <div data-emoji="&#127918;" class="imgwrap f5"><img class="ph" loading="lazy" alt="Giant garden games for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/0e44ef6ed7e8a5183ba6504e936d3dfd" onerror="this.setAttribute('data-failed','1')"></div>
-        <div class="lab"><b>Giant Games</b></div>
-      </a>
+
+    <!-- OBSTACLE COURSES -->
+    <div class="cat-group" id="cat-obstacle" data-reveal>
+      <div class="cat-group-head">
+        <span class="ci">&#127942;</span>
+        <div><h3>Obstacle Courses</h3><p>Big, competitive courses that suit kids right up to teenagers and adults.</p></div>
+      </div>
+      <div class="cat-grid">
+        <div class="icard">
+          <div data-emoji="&#127942;" class="imgwrap f2"><span class="tag">45ft</span><img class="ph" loading="lazy" alt="Adrenaline obstacle course" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/8933eecc72e7a7e1fc3f45745f12f974" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Adrenaline Obstacle Course</h4><p>A huge 45ft course with bish-bash obstacles and an 8ft slide. Suits ages 5/6 right up to teenagers.</p>
+            <div class="prow"><span class="price">&#8364;220</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#127941;" class="imgwrap"><span class="tag">Race</span><img class="ph" loading="lazy" alt="Obstacle course for hire Limerick" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/2dad30734c482af64d3fb1dbb4f527c9" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Head-To-Head Course</h4><p>Two lanes so guests can race side by side. A guaranteed crowd-pleaser at any event.</p>
+            <div class="prow"><span class="price">From &#8364;210</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MARQUEES -->
+    <div class="cat-group" id="cat-marquees" data-reveal>
+      <div class="cat-group-head">
+        <span class="ci">&#9978;</span>
+        <div><h3>Marquees</h3><p>From small garden covers to a 4M x 8M that seats 25-30. Add flooring, heating, furniture and lighting.</p></div>
+      </div>
+      <div class="cat-grid">
+        <div class="icard">
+          <div data-emoji="&#9978;" class="imgwrap f3"><span class="tag">Seats 25-30</span><img class="ph" loading="lazy" alt="4M x 8M marquee" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/c08c9f75c63eea89f568e4023e66f550" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>4M x 8M Marquee</h4><p>The largest in our range, seating 25-30 or 45 standing. Add flooring, heating, furniture and lighting.</p>
+            <div class="prow"><span class="price">Ask Us</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#9978;" class="imgwrap f5"><span class="tag">Interior</span><img class="ph" loading="lazy" alt="Marquee interior setup" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/9a8ab60be2d5437c190fae74c3e687d8" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Smaller Marquees</h4><p>Compact covers for smaller gardens and gatherings. Tell Colm your space and guest numbers.</p>
+            <div class="prow"><span class="price">Ask Us</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#10024;" class="imgwrap f4"><span class="tag">Extras</span><img class="ph" loading="lazy" alt="Marquee with flooring and lighting" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/9df7eaeecca1de0848a66ff600a46d51" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Flooring, Heating &amp; Lighting</h4><p>Finish your marquee with flooring, heating, furniture and lighting for any season.</p>
+            <div class="prow"><span class="price">Add-On</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FUN FOOD -->
+    <div class="cat-group" id="cat-food" data-reveal>
+      <div class="cat-group-head">
+        <span class="ci">&#127851;</span>
+        <div><h3>Fun Food</h3><p>Candy floss and popcorn machines, supplied with everything you need.</p></div>
+      </div>
+      <div class="cat-grid">
+        <div class="icard">
+          <div data-emoji="&#127851;" class="imgwrap f5"><span class="tag">Fun Food</span><img class="ph" loading="lazy" alt="Fun food machines" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/c056e380347705b096bc28575c277518" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Candy Floss &amp; Popcorn</h4><p>Both machines supplied with everything you need to serve. A sweet hit at any party.</p>
+            <div class="prow"><span class="price">From &#8364;120</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#127871;" class="imgwrap"><span class="tag">Treats</span><img class="ph" loading="lazy" alt="Fun food treats for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/310316537c5df4b0c201f9b0ab1bf09f" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Add To Any Package</h4><p>Pair fun food with a castle or marquee for great value. Ask Colm to build it in.</p>
+            <div class="prow"><span class="price">Add-On</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GIANT GAMES -->
+    <div class="cat-group" id="cat-games" data-reveal>
+      <div class="cat-group-head">
+        <span class="ci">&#127918;</span>
+        <div><h3>Giant Games</h3><p>Giant garden games and inflatable dartboards. Fun for all ages.</p></div>
+      </div>
+      <div class="cat-grid">
+        <div class="icard">
+          <div data-emoji="&#127922;" class="imgwrap f4"><span class="tag">Darts</span><img class="ph" loading="lazy" alt="Football and hurling darts" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/91bce9540e51dea73947e1bb870eb9f9" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Football &amp; Hurling Darts</h4><p>Giant inflatable dartboards for football and hurling. A brilliant crowd-pleaser for all ages.</p>
+            <div class="prow"><span class="price">&#8364;160</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#127918;" class="imgwrap"><span class="tag">Giant</span><img class="ph" loading="lazy" alt="Giant garden games package" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/b2eea5eafe35d67dcdc33602aa374922" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Giant Garden Games</h4><p>Giant Connect 4, buzzer games and more. A garden games package starts from &#8364;150.</p>
+            <div class="prow"><span class="price">From &#8364;150</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+        <div class="icard">
+          <div data-emoji="&#9971;" class="imgwrap f2"><span class="tag">Outdoor</span><img class="ph" loading="lazy" alt="Giant outdoor games for hire" src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/0e44ef6ed7e8a5183ba6504e936d3dfd" onerror="this.setAttribute('data-failed','1')"></div>
+          <div class="body"><h4>Crazy Golf &amp; More</h4><p>Crazy golf and oversized outdoor games to round out the day. Mix and match into a package.</p>
+            <div class="prow"><span class="price">Ask Us</span><a class="pbook" href="#contact">Book</a></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="serv-cta" style="text-align:center;margin-top:56px">
+      <a href="#contact" class="btn btn-primary">Build Your Package</a>
     </div>
   </div>
 </section>
@@ -612,32 +719,32 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Colm supplied us with a marquee, bouncy castle and football/dartboard, everything was perfect. He was a pleasure to deal with. Would highly recommend."</p>
-        <div class="who">&mdash; Sinead Connolly</div>
+        <div class="who">&ndash;&nbsp;Sinead Connolly</div>
       </div>
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Thank you Champion Castles & Marquees for supplying us with an amazing disco castle, our children had an absolute ball. Fast efficient service with great quality castles."</p>
-        <div class="who">&mdash; Ursula Earls</div>
+        <div class="who">&ndash;&nbsp;Ursula Earls</div>
       </div>
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Highly recommended. Colm has everything you need for a fun day at home. We loved the oversized outdoor games, lots of fun for all ages."</p>
-        <div class="who">&mdash; Mella Byrne</div>
+        <div class="who">&ndash;&nbsp;Mella Byrne</div>
       </div>
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Really friendly and helpful. Nothing was a problem. Outstanding service and really affordable. Couldn't recommend highly enough."</p>
-        <div class="who">&mdash; Seonaidh N&iacute; Shiomoin</div>
+        <div class="who">&ndash;&nbsp;Seonaidh N&iacute; Shiomoin</div>
       </div>
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Hired a marquee for our son's 18th. Could not get over the value for money considering we only booked 2 weeks before the party."</p>
-        <div class="who">&mdash; Jennifer Ryan</div>
+        <div class="who">&ndash;&nbsp;Jennifer Ryan</div>
       </div>
       <div class="review" data-reveal>
         <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Nice fella, great price and prompt service, couldn't recommend more!"</p>
-        <div class="who">&mdash; Darragh Casey</div>
+        <div class="who">&ndash;&nbsp;Darragh Casey</div>
       </div>
     </div>
     <div style="text-align:center">
@@ -745,11 +852,11 @@ h1 .l1,h1 .l2,h1 .l3{text-shadow:none !important;}
       </div>
       <div>
         <h4>What We Do</h4>
-        <a class="fl" href="#categories">Bouncy Castles</a>
-        <a class="fl" href="#categories">Obstacle Courses</a>
-        <a class="fl" href="#categories">Marquees</a>
-        <a class="fl" href="#categories">Fun Food</a>
-        <a class="fl" href="#categories">Giant Games</a>
+        <a class="fl" href="#cat-castles">Bouncy Castles</a>
+        <a class="fl" href="#cat-obstacle">Obstacle Courses</a>
+        <a class="fl" href="#cat-marquees">Marquees</a>
+        <a class="fl" href="#cat-food">Fun Food</a>
+        <a class="fl" href="#cat-games">Giant Games</a>
       </div>
       <div>
         <h4>Get In Touch</h4>
@@ -798,10 +905,8 @@ document.getElementById('yr').textContent = new Date().getFullYear();
 const burger=document.getElementById('burger'),mm=document.getElementById('mobileMenu');
 burger.addEventListener('click',()=>{const o=mm.classList.toggle('open');document.body.classList.toggle('menu-open',o);burger.innerHTML=o?'&times;':'&#9776;'});
 mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mm.classList.remove('open');document.body.classList.remove('menu-open');burger.innerHTML='&#9776;'}));
-window.addEventListener('scroll',()=>{document.querySelector('.nav-inner').style.boxShadow = window.scrollY>30 ? '5px 5px 0 var(--c2)' : '5px 5px 0 var(--c1)';});
+window.addEventListener('scroll',()=>{document.querySelector('.nav-inner').style.boxShadow = window.scrollY>30 ? '3px 3px 0 var(--c2)' : '3px 3px 0 var(--c1)';});
 document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>q.parentElement.classList.toggle('open')));
-const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
-document.querySelectorAll('[data-reveal]').forEach((el,i)=>{el.style.transitionDelay=(i%4*60)+'ms';io.observe(el)});
 const chatBtn=document.getElementById('chatBtn'),chatWin=document.getElementById('chatWindow'),chatX=document.getElementById('chatClose'),chatBody=document.getElementById('chatBody'),chips=document.getElementById('chatChips');
 const KB=[
  {keys:['price','cost','how much','quote','rates','pricing'],reply:"Castles from \u20AC160, obstacle courses \u20AC210-250, fun food from \u20AC120 and garden games from \u20AC150. Marquees vary, call Colm on 086 600 7850 for a quote or package deal! \uD83D\uDCB0"},
@@ -817,6 +922,18 @@ function answer(q){const m=KB.find(k=>k.keys.some(key=>q.toLowerCase().includes(
 chips.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{add(c.textContent.replace(/^[^\w]+/,'').trim(),'user');answer(c.dataset.q)}));
 chatBtn.addEventListener('click',()=>{chatWin.classList.add('open');chatBtn.querySelector('.chat-badge').style.display='none'});
 chatX.addEventListener('click',()=>chatWin.classList.remove('open'));
+// hero carousel
+(function(){
+  const slides=document.querySelectorAll('#heroCarousel .cslide');
+  const dots=document.querySelectorAll('#heroDots .cdot');
+  if(!slides.length)return;
+  let i=0,timer;
+  function go(n){slides[i].classList.remove('active');dots[i].classList.remove('active');i=(n+slides.length)%slides.length;slides[i].classList.add('active');dots[i].classList.add('active');}
+  function start(){timer=setInterval(()=>go(i+1),4500);}
+  function reset(){clearInterval(timer);start();}
+  dots.forEach(d=>d.addEventListener('click',()=>{go(+d.dataset.i);reset();}));
+  start();
+})();
 </script>
 </body>
 </html>
